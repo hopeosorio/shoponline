@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "codigo": "37800",
+      "nombre": "pdfPrueba",
+      "descripcion": "matela",
+      "precio": 9,
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2022/09/14/16631239416097152b49b103ff2536a57514e7a133_thumbnail_720x.webp",
+      "categoria": "aa",
+      "cantidad": 78,
+      "estadoInventrario": "INSTOCK",
+      "rating": 1,
+      "id": "e7fd"
+    },
+    {
+      "codigo": "8125",
+      "nombre": "Tacos",
+      "descripcion": "sasjdklasdj",
+      "precio": 15,
+      "imagen": "https://th.bing.com/th/id/OIP.pelK9k5ccm6GNDcM6fEozQHaE8?rs=1&pid=ImgDetMain",
+      "categoria": "comida",
+      "cantidad": 12,
+      "estadoInventrario": "INSTOCK",
+      "rating": 5,
+      "id": "5db7"
+    }
+  ],
+  "users": [
+    {
+      "id": "ccf7",
+      "fullName": "César Alejandro Ordoñez Osorio",
+      "email": "ordonezosoriocesar@gmail.com",
+      "password": "CesarO1@"
+    },
+    {
+      "id": "f7c1",
+      "fullName": "lejandro",
+      "email": "osoriocesar@gmail.com",
+      "password": "Alejandro1@"
+    }
+  ]
+}

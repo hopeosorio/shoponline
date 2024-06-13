@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "caoo-shop": {
+    "njpv-shop": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -41,7 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/caoo-shop",
+            "outputPath": "dist/njpv-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,8 +69,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "2000kB",
+                  "maximumError": "2MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -92,10 +92,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "caoo-shop:build:production"
+              "buildTarget": "njpv-shop:build:production"
             },
             "development": {
-              "buildTarget": "caoo-shop:build:development"
+              "buildTarget": "njpv-shop:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -127,6 +127,6 @@
     }
   },
   "cli": {
-    "analytics": "e8968ba1-35c3-4f09-87ca-bb28a3c135d2"
+    "analytics": "e8a55a93-b97b-4356-b149-8ce529b9e586"
   }
 }

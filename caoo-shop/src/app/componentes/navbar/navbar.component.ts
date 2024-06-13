@@ -7,25 +7,30 @@ import { MenuItem } from 'primeng/api';
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
-
 export class NavbarComponent {
   items: MenuItem[] | any;
-  ngOnInit() {
-  this.items = [
-  {
-  items: [
-  {
-  label: 'Ingresar',
-  icon: 'pi pi-sign-in',
-  routerLink: '/login'
+ngOnInit() {
+this.items = [
+{
+items: [
+{
+label: 'Ingresar',
+icon: 'pi pi-sign-in',
+routerLink:'/login',
+},
+{
+label: 'Registrar',
+icon: 'pi pi-user-plus',
+routerLink:'/register'
+},
+{
+  label: 'Productos',
+  icon: 'pi cart-plus',
+  routerLink:'/productos'
   },
-  {
-  label: 'Registrar',
-  icon: 'pi pi-user-plus',
-  routerLink: '/register'
-  },
-  ],
-  },
-  ];
-  }
-  }
+],
+},
+];
+}
+
+}
